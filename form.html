@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+	<!-- external stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<h1>Form and Form Controls</h1>
+
+	<form action="" method="">
+
+		<h2>Text</h2>
+
+		<input type="text" name="username" placeholder="Enter Your Username Here" required>
+		<input type="password" name="password" placeholder="Enter Your Password Here">
+
+		<h2>Radio Button</h2>
+
+		<input type="radio" name="genre" value="rock" checked> Rock
+		<input type="radio" name="genre" value="pop"> Pop
+		<input type="radio" name="genre" value="jazz"> Jazz
+
+		<h2>Checkbox</h2>
+
+		<input type="checkbox" name="fruit" value="apple"> Apple
+		<input type="checkbox" name="fruit" value="orange"> Orange
+		<input type="checkbox" name="fruit" value="melon" checked> Melon
+
+		<h2>Email, Number and Submit Input</h2>
+		<input type="email" name="email" placeholder="Your Email" disabled>
+		<input type="number" name="contact" placeholder="Your Contact Number">
+		<input type="submit" name="submit" value="Submit this Form">
+
+
+
+		<textarea name="comments" placeholder="Write Your Comments Here" rows="4" cols="36">The best website ever!</textarea>
+		<input type="submit" name="submit"	value="Submit this Form">
+
+
+		<h2>Select Input</h2>
+		<select>
+			<option value="abscbn">ABS-CBN</option>
+			<option value="gma">GMA</option>
+			<option value="tv5" selected>TV5</option>
+			<option value="facebook">Facebook</option>
+		</select>
+
+		<input type="file" name="image">
+
+		<button>
+			<img src="https://media.giphy.com/media/zNY6rO9VkJfby/giphy.gif" alt="Dancing Obama GIF">
+		</button>
+
+		<input type="submit" name="submit"	value="Submit File">
+	</form>
+
+	<br><br>
+
+	<form>
+		<label>Username:<input type="text" name="name"></label>
+
+		<label for="password">Password</label>
+		<input id="password" type="password" name="password">
+
+		<br><br>
+
+		<input id="fem" type="radio" name="gender" value="f">
+		<label for="fem">Female</label>
+
+		<input id="male" type="radio" name="gender" value="m">
+		<label for="male">Male</label>
+
+	</form>
+
+	<form>
+		<fieldset>
+			<legend>Contact Details</legend>
+
+			<label for="em">Email:</label>
+			<input id="em" type="email" name="email">
+
+			<label>Mobile:<input type="number" name="contact"></label>
+		</fieldset>
+
+	</form>
+
+
+	<h2>Grouping Form Elements</h2>
+	<code>fieldset</code> <br>
+	<code>legend</code>
+
+		<!-- we can create stricter validation thru frontiend and back-end -->
+
+	<h2>Input Attributes</h2>
+
+
+	<code>type</code>
+	<code>name</code>
+	<code>value</code>
+	<code>required</code>
+	<code>placeholder</code>
+	<code>disabled</code>			
+	<code>checked</code> 
+	<code>selected</code>
+
+
+
+</body>
+</html>

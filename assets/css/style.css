@@ -36,6 +36,15 @@ h1 {
 	background-color: red;
 }
 
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+}
+
+h4 {
+	margin: 0 1rem;
+}
+
 /*em {
 	text-decoration: underline;
 	font-weight: bolder;
@@ -65,4 +74,10 @@ code {
 table, tr, td, th {
 	border-collapse: collapse;
 	border: 1px solid black;
+}
+
+.mini {
+	max-width: 40%;
+	margin: 0 auto;
+	
 }

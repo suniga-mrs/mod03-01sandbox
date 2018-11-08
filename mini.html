@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Activity</title>
+
+	<!-- external stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+	<form class="mini">
+		<fieldset>
+
+			<legend>Your Details</legend>
+
+			<label>Name:
+				<input type="text" name="name">
+			</label>
+			<br>
+			<label>Email:
+				<input type="email" name="Email">
+			</label>
+
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Review</legend>
+
+			<p>
+				<label for="media">How did you hear about us?</label>
+				<select id="media">
+					<option value="google" selected="">Google</option>
+					<option value="facebook">Facebook</option>
+					<option value="linkedlin">LinkedIn</option>
+					<option value="others">Others</option>
+				</select>
+			</p>
+
+			<p>
+				<label>Would you visit again?</label> <br>
+				<input type="radio"	name="yes"> Yes
+				<input type="radio" name="no"> No
+				<input type="radio" name="maybe"> Maybe
+			</p>
+
+			<p>
+				<label for="comments">Comments:</label> <br>
+				<textarea id="comments" rows="5" cols="40">
+					
+				</textarea>
+			</p>
+
+			<p>
+				<input type="checkbox" name="subscribe">
+				<label>Sign me up for email updates</label>
+			</p>
+
+			<input type="submit" name="submit" value="Submit Review">
+
+		</fieldset>
+
+
+
+
+
+
+
+
+	</form>
+
+</body>
+</html>
