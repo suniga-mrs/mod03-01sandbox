@@ -1,0 +1,54 @@
+body {
+	padding: 2em 10em 5em 10em;
+}
+
+#kaliwa {
+	text-align: left;
+}
+
+#kanan {
+	text-align: right;	
+}
+
+#gitna {
+	text-align: center;
+}
+
+/*#kaliwa, #kanan, #gitna {
+	display: inline-block;
+	border: 10px solid red;
+	height: 200px;
+
+	vertical-align: top;
+}*/
+
+hr {
+	width: 100px;
+}
+
+.red {
+	color: white;
+	font-weight: bold;
+	background-color: indianred;
+}
+
+h1 {
+	background-color: red;
+}
+
+/*em {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+*/
+abbr {
+	text-decoration: none;
+}
+
+blockquote {
+	border-left: 5px solid gray;
+}
+
+.blockquote {
+	margin-left: 10px;
+}
