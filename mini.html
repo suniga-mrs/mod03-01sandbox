@@ -6,11 +6,24 @@
 	<!-- external stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+	<style type="text/css">
+		body {
+			background-color: #eee;
+			color: #333;
+		}
+
+		fieldset {
+			border: 1px solid #333;
+			border-radius: 10px;
+		}
+	</style>
+
 
 </head>
 <body>
 
 	<form class="mini">
+
 		<fieldset>
 
 			<legend>Your Details</legend>
@@ -23,43 +36,46 @@
 				<input type="email" name="Email">
 			</label>
 
-		</fieldset>
+		</fieldset> <!-- end of fieldset one -->
+
 		<br>
+
 		<fieldset>
 			<legend>Your Review</legend>
 
-			<p>
-				<label for="media">How did you hear about us?</label>
-				<select id="media">
-					<option value="google" selected="">Google</option>
-					<option value="facebook">Facebook</option>
-					<option value="linkedlin">LinkedIn</option>
-					<option value="others">Others</option>
-				</select>
-			</p>
+			<p">How did you hear about us?</p>
+			<select id="media">
+				<option value="google" selected="">Google</option>
+				<option value="facebook">Facebook</option>
+				<option value="linkedlin">LinkedIn</option>
+				<option value="others">Others</option>
+			</select>
+
+			<br>
 
 			<p>
-				<label>Would you visit again?</label> <br>
-				<input type="radio"	name="yes"> Yes
-				<input type="radio" name="no"> No
-				<input type="radio" name="maybe"> Maybe
+				<label>Would you visit again?</label>
+				<br>
+				<input type="radio"	name="choice" value="y"> Yes
+				<input type="radio" name="choice" value="n"> No
+				<input type="radio" name="choice" value="m"> Maybe
 			</p>
 
 			<p>
 				<label for="comments">Comments:</label> <br>
-				<textarea id="comments" rows="5" cols="40">
+				<textarea id="comments" rows="5" cols="30">
 					
 				</textarea>
 			</p>
 
 			<p>
-				<input type="checkbox" name="subscribe">
-				<label>Sign me up for email updates</label>
+				<input id="check" type="checkbox" name="subscribe">
+				<label for="check">Sign me up for email updates</label>
 			</p>
 
-			<input type="submit" name="submit" value="Submit Review">
+			<input id="button" type="submit" name="submit" value="Submit Review">
 
-		</fieldset>
+		</fieldset> <!-- end of fieldset two -->
 
 
 
