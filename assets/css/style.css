@@ -23,7 +23,7 @@ body {
 }*/
 
 hr {
-	width: 100px;
+	max-width: 30%;
 }
 
 .red {
@@ -51,4 +51,18 @@ blockquote {
 
 .blockquote {
 	margin-left: 10px;
+}
+
+.subhead {
+	text-align: center;
+}
+
+code {
+	background-color: #333;
+	color: white;
+}
+
+table, tr, td, th {
+	border-collapse: collapse;
+	border: 1px solid black;
 }

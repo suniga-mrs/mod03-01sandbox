@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+
+	<!-- external stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<h1>Day 4 - Module 3 Notes</h1>
+
+	<!-- Email Links -->
+
+	<h4><a href="mailto:suniga.mrs@gmail.com?subject=Inquiry of Services">Email Us!</a></h4>
+
+	<blockquote>
+		<p class="blockquote">Opens default email software in pc and automatically adds "To" email and the "Subject".</p>
+	</blockquote>
+
+	<h4><a href="https://www.google.com" target="_tab">Google</a></h4>
+	<blockquote>
+		<p class="blockquote">Opens link to a new tab with " <code>target= "_blank"</code> " attribute</p>
+	</blockquote>
+
+	<!-- Jump Link -->
+	<h4><a href="contact.html#bottom">See Jump Link in Action</a></h4>
+
+	<code>< a href="contact.html#mid">  This Jumps to the mid section < /a ></code>
+
+	<hr>
+
+	<!-- List Formatting 
+		
+		ul - unordered list
+		ol - ordered list
+		li - list item
+
+	-->
+
+	<h1>Things I do after waking up</h1>
+
+	<ol>
+		<li>Open my eyes</li>
+		<li>Close it again for 5 minutes</li>
+		<li>Open again</li>
+		<li>Be surprised as 3 hours late ka na sa Tuitt</li>
+		<li>Ride MRT</li>
+		<li>Start the Bootcamp</li>
+	</ol>
+
+	<h2>Nilagang Baka Ingredients</h2>
+
+	<ul>
+		<li>Beef</li>
+		<li>Broth</li>
+		<li>Gulay</li>
+			<ul> <!-- Nested List -->
+				<li>Patatas</li>
+				<li>Repolyo</li>
+			</ul>  <!-- End Nested List -->
+
+		<li>Saging na Saba</li>
+		<li>Magic Sarap</li>
+	</ul>
+
+	<h2>New Ordered List</h2>
+
+	<ol>
+		<li>Red</li>
+		<li>Yellow</li>
+		<li>Blue</li>
+		<li>Green</li>
+	</ol>
+
+	<h2>Ingredients</h2>
+	<ul>
+		<li>50g Butter</li>
+		<li>2 Eggs</li>
+		<li>10ml Link</li>
+		<li>Salt and Pepper </li>
+		<li>5 mediumsized oranges</li>
+	</ul>
+
+	<h2>Animal Kingdom</h2>
+	<ul>
+		<li>Reptile</li>
+		<li>Mammals</li>
+			<ol>
+				<li>Cow</li>
+				<li>Cat</li>
+			</ol>
+		<li>Birds</li>
+		<li>Amphibians</li>
+	</ul>
+
+
+	<h2>Definition List</h2>
+
+	<!--
+		
+		DEFINITION LIST
+
+		dl - definition list
+		dt - text to define
+		dd - definition of the text
+
+	-->
+
+	<dl>
+		<dt>Empathy</dt>
+		<dd>the imaginative projection of a subjective state into an object so that the onject appears to be infused with it</dd>
+		<dt>Impanel</dt>
+		<dd>To choose people to serve on a jury</dd>
+	</dl>
+
+
+	<!-- 
+
+	IMAGES 
+
+
+
+	-->
+
+	<h2>Images Tips</h2>
+	<blockquote>
+		<p class="blockquote">
+			Save images in appropriate <strong>SIZE</strong> & <strong>FORMAT</strong> for web pages for faster loading
+		</p>
+	</blockquote>
+
+
+	<img src="assets/images/dog.jpg" alt="One of the three puppies">
+
+		<blockquote>
+		<p class="blockquote">
+			download a picture of a dog and save it to asset/images with "dog.jpg" as file name
+		</p>
+	</blockquote>
+
+	<h2>GIF formats</h2>
+
+	<img src="https://media.giphy.com/media/zNY6rO9VkJfby/giphy.gif" alt="Dancing Obama GIF">
+
+
+	<!--
+
+	Tables 
+
+	tr - table row
+	td - table data
+	th - table heading
+		-- scope attribute on th element to indicate whether it is a heading for a column or a row
+
+
+	-->
+
+	<h2>Tables</h2>
+
+	<table>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+
+	<h2> <code>< th ></code> tag and <code>scope</code> Attribute</h2>
+
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">Saturday</th>
+			<th scope="col">Sunday</th>
+		</tr>
+		<tr>
+			<th scope="row">Tickets Sold:</th>
+			<td>128</td>
+			<td>135</td>
+		</tr>
+		<tr>
+			<th scope="row">Total Sales:</th>
+			<td>$600</td>
+			<td>$675</td>
+		</tr>
+	</table>
+
+	<h2> <code>colspan</code> Attribute</h2>
+
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col"> 9 AM </th>
+			<th scope="col"> 10 AM </th>
+			<th scope="col"> 11 AM </th>
+		</tr>
+
+		<tr>
+			<th scope="row">Monday:</th>
+			<td colspan="2">Geography</td>
+			<td>Math</td>
+			<td>Art</td>
+		</tr>
+
+		<tr>
+			<th scope="row">Tuesday</th>
+			<td colspan="3">Gym</td>
+			<td>Grocery</td>
+		</tr>
+	</table>
+
+
+	<h2> <code>rowspan</code> Attribute</h2>
+
+	<table>
+		<tr>
+			<th></th>
+			<th>TV5</th>
+			<th>GMA</th>
+			<th>ABSCBN</th>
+		</tr>
+
+		<tr>
+			<th>4pm - 7pm</th>
+			<td rowspan="2">Cartoon</td>
+			<td>Comedy</td>
+			<td>News</td>
+		</tr>
+
+		<tr>
+			<th>7pm - 4pm</th>
+			<td rowspan="3">Sports</td>
+			<td>Current Affairs</td>
+		</tr>
+
+		<tr>
+			<th>1</th>
+			<td>2</td>
+			<td>3</td>
+
+		</tr>
+		<tr>
+			<th>4</th>
+			<td>5</td>
+			<td>6</td>
+
+		</tr>
+		<tr>
+			<th>7</th>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+		</tr>
+
+
+	</table>
+
+
+
+
+
+
+
+
+</body>
+</html>
